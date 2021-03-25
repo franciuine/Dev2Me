@@ -5,9 +5,9 @@ public class Main{
 		
 		Scanner input = new Scanner(System.in);
 		Candidato listaCandidatos[] = new Candidato[3];
-		listaCandidatos[0] = new Candidato(1, "Angela Pepino", "PMDB");
-		listaCandidatos[1] = new Candidato(2, "Gean da Silva", "PT");
-		listaCandidatos[2] = new Candidato(3, "Cesar Souza Neto", "DEM");
+		listaCandidatos[0] = new Candidato("Angela Pepino", "PMDB");
+		listaCandidatos[1] = new Candidato("Gean da Silva", "PT");
+		listaCandidatos[2] = new Candidato("Cesar Souza Neto", "DEM");
 		int votos = 0, brancos = 0, nulos = 0;
 		int maisVotos = 0;
 		int op = 0;
