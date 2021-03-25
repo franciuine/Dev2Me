@@ -60,7 +60,7 @@ public class Main{
 					}
 					
 					if (votos == 0){
-						System.out.println("\nNão houveram votos o suficiente para concluir as eleições");
+						System.out.println("\nNão houveram votos o suficiente para concluir as eleições.");
 					} else {
 						System.out.println("\n" + eleito + " foi eleito(a) com " + maisVotos + " votos");
 						System.out.println("Total de votos: " + votos);	
