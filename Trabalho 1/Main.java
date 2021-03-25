@@ -66,7 +66,7 @@ public class Main{
 						System.out.println("Total de votos: " + votos);	
 						System.out.println("Total de votos nulos: " + nulos);
 						System.out.println("Total de votos em branco: " + brancos);
-			     	}
+			         	}
 					System.exit(1);
 					break;
 				default:
