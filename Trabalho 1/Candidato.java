@@ -24,10 +24,10 @@ public class Candidato {
 	}
 	
 	public void Imprime(int i){
-		System.out.println("\nCódigo: " + (i+1));
-		System.out.println("Candidato: " + this.nome);
-		System.out.println("Votos: " + this.votos);
-		System.out.println("Partido: " + this.partido);
+		System.out.println("\n| Código: " + (i+1));
+		System.out.println("| Candidato: " + this.nome);
+		System.out.println("| Votos: " + this.votos);
+		System.out.println("| Partido: " + this.partido);
 	}
 	
 }
