@@ -3,10 +3,8 @@ public class Candidato {
 	public int votos = 0;
 	public String nome;
 	private String partido;
-	private int cod;
-	
-	public Candidato(int cod, String nome, String partido){
-		this.cod=cod;
+		
+	public Candidato(String nome, String partido){
 		this.nome=nome;
 		this.partido=partido;
 	}
