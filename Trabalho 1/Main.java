@@ -60,13 +60,13 @@ public class Main{
 					}
 					
 					if (votos == 0){
-						System.out.println("\nNão houveram votos o suficiente para concluir as eleições.");
+						System.out.println("\n| Não houveram votos o suficiente para concluir as eleições.");
 					} else {
-						System.out.println("\n" + eleito + " foi eleito(a) com " + maisVotos + " votos");
-						System.out.println("Total de votos: " + votos);	
-						System.out.println("Total de votos nulos: " + nulos);
-						System.out.println("Total de votos em branco: " + brancos);
-			         	}
+						System.out.println("\n| " + eleito + " foi eleito(a) com " + maisVotos + " votos");
+						System.out.println("| Total de votos: " + votos);	
+						System.out.println("| Total de votos nulos: " + nulos);
+						System.out.println("| Total de votos em branco: " + brancos);
+			     	        }
 					System.exit(1);
 					break;
 				default:
