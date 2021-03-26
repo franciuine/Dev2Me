@@ -19,10 +19,6 @@ public class Candidato {
 	}*/
 	
 	
-	public void Votar(){
-		this.votos++;
-	}
-	
 	public void Imprimir(int i){
 		System.out.println("\n| Código: " + (i+1));
 		System.out.println("| Candidato: " + this.nome);
