@@ -30,13 +30,13 @@ public class Main{
 					
 					switch(input.nextInt()){
 						case 1:
-							listaCandidatos[0].Voto();
+							listaCandidatos[0].Votar();
 							break;
 						case 2:
-							listaCandidatos[1].Voto();
+							listaCandidatos[1].Votar();
 							break;
 						case 3:
-							listaCandidatos[2].Voto();
+							listaCandidatos[2].Votar();
 							break;
 						case 4:
 							nulos++;
@@ -52,7 +52,7 @@ public class Main{
 					break;
 				case 2:
 					for(int i=0; i<3; i++){
-						listaCandidatos[i].Imprime(i);
+						listaCandidatos[i].Imprimir(i);
 						if(listaCandidatos[i].votos > maisVotos){
 							eleito = listaCandidatos[i].nome;
 							maisVotos = listaCandidatos[i].votos;
