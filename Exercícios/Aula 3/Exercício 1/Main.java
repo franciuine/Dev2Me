@@ -15,7 +15,7 @@ public class Main{
 		
 		PreencherLista(tam, lista);
 		
-		System.out.print("\n| Buscar por elemento (busque por uma posição de 0 a " + (tam-1) + "): \n| ");
+		System.out.print("\n| Buscar por elemento: \n| ");
 		m = input.nextInt();
 		
 		EncontrarElemento(tam, m, lista);
@@ -31,14 +31,13 @@ public class Main{
 	}
 	
 	public static void EncontrarElemento(int tam, int m, ArrayList<Integer> lista){
-		if(m < 0 || m >= tam){
-			System.out.println("\n| Posição inválida!");
-		} else {
-			for(int i=0; i<tam; i++){
-				if(m == i){
-					System.out.println("\n| Elemento " + lista.get(i) + " encontrado na posição " + i + ".");
-				}
+		for(int i=0; i<tam; i++){
+			int valor = lista.get(i);
+			if(m == valor){
+				System.out.println("\n| Elemento " + valor + " encontrado na posição " + i + ".");
+				return;
 			}
 		}
+		System.out.println("\n| Elemento não encontrado.");
 	}
 }
